@@ -14,6 +14,9 @@
     <button class="SocialIcon">
       <i class="fa-brands fa-youtube-square"></i>
     </button>
+
+    <!-- IMG + MIRRORED IMG (BANNER) -->
+
     <img
       id="HeaderImg"
       src="..\src\assets\video_law_home_preview.jpg"
