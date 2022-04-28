@@ -79,8 +79,23 @@
 
     <!-- ASK AN EXPERT -->
     <div class="greenbanner">
-      QUESTIONS ABOUT A JUDICIAL ISSUE? ASK OUR EXPERTS.
-      <button>ASK AN EXPERT</button>
+      <span class="greenbannerfont"
+        >QUESTIONS ABOUT A JUDICIAL ISSUE? ASK OUR EXPERTS.</span
+      >
+      <button id="greenbannerbutton">ASK AN EXPERT</button>
+    </div>
+    <!-- GLOBAL CHALLANGE -->
+    <h2>GLOBAL CHALLANGE. WORLD CLASS RESPONSE</h2>
+    <hr id="undermark" />
+    <div class="our">OUR PEOPLE</div>
+    <div class="our">OUR PRACTICE AREAS</div>
+    <div class="our">OUR PUBBLICATIONS</div>
+    <div class="cardcontainer">
+      <div class="row1">
+        <img src="..\src\assets\column1-image1.jpg" alt="DeborahBrown" />
+        <img src="..\src\assets\column2-image1.jpg" alt="TaxLitigation" />
+        <img src="..\src\assets\column3-image1.jpg" alt="LowOilPrices" />
+      </div>
     </div>
   </div>
 </template>
@@ -121,8 +136,8 @@ button {
 
 .container {
   display: block;
-  width: 100vw;
-  margin: 0 10%;
+  width: 90vw;
+  margin: 0 10vw;
 }
 .presentation {
   text-align: center;
@@ -130,7 +145,7 @@ button {
   margin: 0 1px;
   padding: 3% 3%;
   height: 380px;
-  width: 495px;
+  width: 493px;
   background-color: white;
   display: inline-block;
 }
@@ -169,5 +184,38 @@ button {
   background-color: #74a59e;
   width: 100vw;
 }
+.greenbannerfont {
+  display: inline;
+  background-color: #74a59e;
+  font-size: 30px;
+}
+#greenbannerbutton {
+  display: inline;
+  font-size: 15px;
+  background-color: #54a096;
+  padding: 20px 30px;
+  margin-left: 370px;
+}
+
 // ASK AN EXPERT
+
+//  GLOBAL CHALLANGE
+h2 {
+  text-align: center;
+  margin: 10% 0 1%;
+}
+#undermark {
+  width: 10vw;
+  margin: 2% 45% 5%;
+  border: 1px solid #8c919e;
+}
+.our {
+  font-weight: 700;
+  display: inline-block;
+  margin: 2% 12% 1%;
+}
+.cardcontainer {
+  margin: 2% 12% 1%;
+}
+//  GLOBAL CHALLANGE
 </style>
